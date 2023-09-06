@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(60deg,rgba(37, 0, 201, 0.877),rgb(105, 0, 153),rgba(57, 0, 190, 0.89));
+    min-height: 100vh;
+}
+.head{
+    color: white;
+    cursor: pointer;
+    margin-left: 40%;
+}
+.cel{
+    color: white;
+    cursor: pointer;
+    margin-left: 50%;   
+}
+nav{
+    height: 10vh;
+    background: linear-gradient(120deg,rgb(0, 247, 255),rgba(0, 96, 151, 0.904),rgb(66, 0, 128));
+    background-image: url(rain-6812_256.gif);
+}
+
+nav ul{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0px 10px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-style:oblique;
+    font-weight: bold;
+}
+nav ul li{
+    margin-top: 10px;
+    margin-right: 40px;
+}
+nav ul li input{
+    font-style: italic;
+    font-size: 1.1rem;
+    border-radius: 7px;
+    height: 4vh;
+    transition: 0.4s ease-in-out;
+}
+nav ul li input:hover{
+    height: 5.5vh;
+}
+nav ul li:hover{
+    color: rgb(229, 255, 0);
+}
+.search {
+    margin-left: 70%;
+}
+.btn{
+    height: 5vh;
+    width: 6vw;
+    cursor: pointer;
+    border-radius: 6px;
+    background-color: rgb(0, 225, 255);
+    font-size: 1.1rem;
+    font-weight:100;
+    font-style: italic;
+    transition: 0.4s ease-in-out;
+}
+.btn:hover{
+    width: 7vw;
+    height: 6vh;
+}
+.header{
+    color: rgb(251, 255, 0);
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: rgb(183, 0, 255);
+    margin-top: -4px;
+    width: 20.7vw;
+    position: relative;
+    margin-left: -4px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background:transparent;
+    /* background:#000; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:40vh;
+    margin-top: 10px;
+    margin: 0px 20px;
+    background-image: url(bird-6916_256.gif);
+}
+.cards{
+    background-color:blueviolet;
+    position: relative;
+    height: 35vh;
+    width: 20vw;
+    margin: 12px;
+    border-radius: 8px;
+    padding: 5px;
+}
+.cards ul li{
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    margin: 0px 5px;
+}
+
+@media only screen and (max-width: 395px) {
+    nav{
+        height: 20vh;
+    }
+    .H{
+        display: none;
+    }
+    nav ul{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    nav ul li input{
+        margin-top: 10%;
+        margin-left: -50vw;
+    }
+    .search{
+        margin-left: -1%;
+    }
+    .btn{
+        margin-top: 20px;
+        width: 70px;
+    }
+    .head{
+        margin-left:10px;
+    }
+    .cel{
+        margin-left: 40%;
+    }
+    .container{
+        flex-direction: column;
+        height: 100vh;
+        background-image: none;
+    }
+    .cards{
+        width: 70vw;
+        height: 40vh;
+    }
+    .header{
+        width: 72vw;
+    }
+  }

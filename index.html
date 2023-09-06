@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtime Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><h1>Weather App</h1></li>
+            <li class="H">Home</li>
+            <li class="A">About</li>
+            <li><input class="search" type="text" id="city" placeholder="Jamshedpur"></li>
+            <li><button class="btn" type="submit" id="submit">Search</button></li>
+        </ul>
+    </nav>
+    <h1 class="head">Weather for <span id="cityName"></span></h1>
+    <h1 class="cel"><span id="temp2"></span><span>&#8451;</span></h1>
+    <div class="BigC">
+        <div class="container">
+            <div class="cards">
+                <div class="header">Humidity & Wind</div>
+                <ul>
+                    <li>Humidity : <span id="humidity"></span></li>
+                    <li>Wind Speed : <span id="wind_speed"></span>km/h</li>
+                    <li>Wind Degrees : <span id="wind_degrees"></span><span>&deg;</span></li>
+                </ul>
+            </div>
+            <div class="cards">
+                <div class="header">Temperature in<span>&#8451;</span> </div>
+                <ul>
+                    <li>Temperature : <span id="temp"></span><span>&#8451;</span></li>
+                    <li>Feels Like : <span id="feels_like"></span><span>&#8451;</span></li>
+                    <li>Min Temp : <span id="min_temp"></span><span>&#8451;</span></li>
+                    <li>Max Temp : <span id="max_temp"></span><span>&#8451;</span></li>
+                </ul>
+            </div>
+            <div class="cards">
+                <div class="header">SUN</div>
+                <ul>
+                    <li>Sunrise : <span id="sunrise"></span></li>
+                    <li>Sunset : <span id="sunset"></span></li>
+                    <li>Cloud Pct: <span id="cloud_pct"></span></li>
+                </ul>
+            </div>
+        </div>
+    
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
