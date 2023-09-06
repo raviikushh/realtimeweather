@@ -114,7 +114,7 @@ span{
     margin: 0px 5px;
 }
 
-@media only screen and (max-width: 395px) {
+@media only screen and (max-width: 390px) {
     nav{
         height: 20vh;
     }
@@ -130,11 +130,12 @@ span{
         margin-left: -50vw;
     }
     .search{
-        margin-left: -1%;
+        margin-left: -2%;
     }
     .btn{
         margin-top: 20px;
         width: 70px;
+        margin-right: -25px;
     }
     .head{
         margin-left:10px;
