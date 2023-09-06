@@ -114,7 +114,7 @@ span{
     margin: 0px 5px;
 }
 
-@media only screen and (max-width: 385px) {
+@media only screen and (max-width: 400px) {
     nav{
         height: 20vh;
     }
